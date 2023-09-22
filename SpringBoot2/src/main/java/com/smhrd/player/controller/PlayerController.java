@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.smhrd.player.service.PlayerService;
 
 @RestController // 리액트 서버로 데이터만 응답
-@CrossOrigin("http://3.37.86.112:3000/") // aws : 서버주소 변경 //172.31.35.57 -> 인스턴스 중지시켰다 다시 키면 변경됨
+@CrossOrigin("http://52.78.181.133:3000/") // aws : 서버주소 변경 //172.31.35.57 -> 인스턴스 중지시켰다 다시 키면 변경됨
 public class PlayerController {
 	
 	@Autowired
